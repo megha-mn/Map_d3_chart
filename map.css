@@ -1,0 +1,132 @@
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    margin: 0;
+  }
+
+  /* Page left side */
+  /* Start Map popup */
+.stateResultsTooltip{
+  position: absolute;
+  right: 0;
+  width: 50%;
+}
+
+ .state-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 80%;
+    height:160px;
+    background-color:grey;
+  }
+  
+  .state-name{
+  background-color:black;
+  color:white;
+  padding: 10px 20px;
+  }
+  
+  .card-container {  
+    width: 95%;
+    height: 90px;
+    margin: 0 auto;
+    background-color:white;
+  }
+  
+  .container-row, .table-header{
+  text-align:center
+  }
+  
+  .container-row span{
+  text-align:center;
+  padding:3px;
+  background-color:blue;
+  color: white;
+  }
+  
+  .view-more{
+  display:flex;
+  flex-direction: row-reverse;
+  padding-right:2px;
+  color:#bb0404;
+  font-weight: bold;
+  margin-top: 20px;
+  }
+  /* End Map popup */
+
+
+/* Page right side */
+  .right-side img{
+    width: 50px;
+  }
+
+  .total-seats{
+    padding: 20px 0;
+  }
+
+  .hr-divider{
+    max-width: 75%;
+    margin-left:0;
+    border-top: 2px dotted #b3afaf !important;
+  }
+
+  .div-container {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  .inside-div {
+    text-align: right;
+    padding: 10px;
+    color: white;
+  }
+  
+  .fill-first {
+    width: 52%;
+    background-color:#ea2121;
+  }
+
+  .fill-second{
+    width: 46%;
+    background-color:blue;
+  }
+
+  .fill-third{
+    width: 2%;
+    background-color:green;
+  }
+
+  .pecentage-one,.pecentage-two,.pecentage-three{
+    height: 90px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .pecentage-one{
+    color: #ea2121;
+  }
+  .pecentage-two{
+    color: blue;
+  }
+  
+  .pecentage-three{
+    color: green;  
+  }
+
+.second-section{
+  margin-top: 60px;
+}
+
+.heading, .total-count{
+  font-size: 20px;
+  color: #ea2121;
+  font-weight: bold;
+}
+
+.total-count{
+  color: #000;
+}
+
+.content-fontSize{
+  font-size: 16px;
+}

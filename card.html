@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 25%;
+  height:175px;
+  background-color:grey;
+}
+
+.state-name{
+background-color:black;
+color:white;
+padding: 10px 20px;
+}
+
+.container {  
+   width: 95%;
+  height: 90px;
+  margin: 0 auto;
+  background-color:white;
+}
+
+.row{
+text-align:center
+}
+
+.row span{
+text-align:center;
+padding:3px;
+background-color:blue;
+color: white;
+}
+
+.view-more{
+display:flex;
+flex-direction: row-reverse;
+padding-right:2px;
+color:red;
+}
+
+</style>
+</head>
+<body>
+
+<div class="card">
+ <h3 class="state-name">Heading</h3>
+  <div class="container">
+    <table style="width:100%">
+  <tr>
+    <th>INC</th>
+    <th>BJP</th> 
+    <th>BSP</th>
+    <th>OTHERS</th>    
+  </tr>
+  <tr>
+    <td class="row"><span>50<span></td>
+    <td class="row"><span>50<span></td>
+    <td class="row"><span>50<span></td>
+    <td class="row"><span>50<span></td>   
+  </tr>
+</table>
+
+<div class="view-more">
+<p>View More</p>
+</div>
+  </div>
+</div>
+
+</body>
+</html> 
